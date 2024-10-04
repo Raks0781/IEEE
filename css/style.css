@@ -1,0 +1,212 @@
+.bd {
+  background-image: url(IEEE.jpg);
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  background-position-x: 370px;
+  background-position-y: 370px;
+
+}
+
+.show {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6) 0 100%), url(../images/IEEE.jpg);
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+}
+
+.h {
+  font-family: trirong;
+  color: rgb(252, 252, 252);
+  background-color: rgb(14, 14, 114);
+  box-sizing: border-box;
+  border-radius: 100px;
+  border-color: antiquewhite;
+  font-size: larger;
+  text-align: center;
+
+}
+
+.p {
+  font-family: Copperplate, Papyrus, fantasy;
+  font-size: xx-large;
+  animation: fadeIn 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav {
+  background-color: rgb(0, 0, 0);
+  overflow: auto();
+  justify-content: space-between;
+}
+
+.nav a {
+  color: rgba(255, 255, 255, 0.997);
+  float: right;
+  background-color: rgb(0, 0, 0);
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-top: 10px;
+  border-radius: 20px;
+  padding-block: 10px;
+
+}
+
+.nav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.nav a:last-child {
+  margin-right: 1130px;
+}
+
+.pa {
+  font-variant: small-caps;
+  box-sizing: 100px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: large;
+  padding-top: 20px;
+
+
+}
+
+.bold {
+  font-family: Garamond, serif;
+  font-size: large;
+  padding-top: 20px;
+}
+
+.butt {
+  background-color: #002fbc;
+  color: rgb(255, 246, 246);
+  padding: 15px 32px;
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+}
+
+.imge {
+  float: left;
+  border-radius: 20px;
+
+}
+
+.i {
+  height: 160px;
+  width: 1500px;
+  border-radius: 10px;
+}
+
+.cont {
+  display: inline-block;
+  align-items: center;
+}
+
+.imge {
+  float: right;
+}
+
+.paa {}
+
+.pi {
+  font-family: trirong;
+  font-weight: 900;
+  text-align: left;
+  font-size: medium;
+  animation: fadeIn 10s;
+  color: rgb(1, 1, 106);
+  font-style: oblique;
+}
+
+.imgi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+.ch {
+  background-color: #e0e0e0;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing: -0.8px;
+  overflow: hidden;
+}
+
+.wrapper {
+  margin: 2% 0 0 2%;
+  border-left: 6px solid black;
+  overflow: hidden;
+}
+
+.wrapper h1 {
+  font-size: 12vw;
+  color: rgb(30, 0, 128);
+  margin: 0 0 0 14px;
+  padding: 0;
+  line-height: 0.8;
+  letter-spacing: -5px;
+}
+
+.wrapper p {
+  font-size: 4vw;
+  margin: 0 0 0 20px;
+  font-weight: bold;
+
+}
+.achieve {
+  font-weight:bold;
+  padding-top:10px;
+  font-family: trirong;
+  font-weight: 900;
+  text-align: left;
+  font-size: large;
+  animation: fadeIn 10s;
+  color: rgb(1, 1, 106);
+  font-style: oblique;
+}
+.ach {
+  font-variant: small-caps;
+  box-sizing: 100px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  font-size: large;
+  padding-top: 20px;
+}
+.end {
+  padding-top: 30px;
+  padding-left: 90px;
+  margin: 2% 0 0 2%;
+  margin: 2% 0 0 2%;
+  border-left: 6px solid black;
+  overflow: hidden;
+
+
+}
+.image {
+  font-size: 3vw;
+  color: rgb(30, 0, 128);
+  margin: 0 0 0 14px;
+  padding-top: 30px;
+  padding-left: 45px;
+
+
+}
