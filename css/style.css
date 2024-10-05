@@ -270,13 +270,33 @@ h1{
   padding-top: 30px;
   padding-left: 45px;
 
-<<<<<<< HEAD
 
 }
 @font-face {
   font-family: font;
   src: url(KGHAPPY.ttf);
 }
-=======
+.container {
+  color: #000000;
+  text-align: center;
+  padding: 20px;
 }
->>>>>>> dceab0c9d9738ace7ce1d6742718199e50fc03b8
+.header h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom:5px ;
+
+}
+.header p {
+  font-size: 18px;
+  margin-bottom: 40px;
+
+}
+.participate, .know-more, .join {
+  margin: 30px 0;
+
+}
+.hj {
+  font-size: 24px;
+  
+}
