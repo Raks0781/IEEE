@@ -307,7 +307,7 @@ h1{
   overflow: hidden; 
 }
 .imei{
-  width: 1520px;
+  width: 100%;
   height: 200px; 
   border-radius: 10px;
 }
