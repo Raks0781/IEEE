@@ -230,9 +230,15 @@ h1{
   src: url(aveng.ttf.ttf);
 }
 .hi{
-  background-color: #051885;
- color: #ffffff;
- font-family: }
+ color: #000000;
+ font-family: fo;
+  font-size: xx-large;
+  background-color: #fffcfc;
+  display: inline-block;
+  text-decoration: double;
+  border-radius: 1px;
+  padding-bottom: 10px;
+}
  .achieve {
   font-weight:bold;
   padding-top:10px;
@@ -269,14 +275,12 @@ h1{
   margin: 0 0 0 14px;
   padding-top: 30px;
   padding-left: 45px;
-
-<<<<<<< HEAD
-
 }
 @font-face {
   font-family: font;
   src: url(KGHAPPY.ttf);
 }
-=======
+@font-face {
+  font-family:fo ;
+  src: url(wes.ttf.ttf);
 }
->>>>>>> dceab0c9d9738ace7ce1d6742718199e50fc03b8
