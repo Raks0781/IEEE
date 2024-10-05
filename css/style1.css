@@ -40,10 +40,10 @@
    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
-    #e8f04c 0%,
-    #a70b0b 29%,
-    #01051100 67%,
-    #fbfcf9 100%
+    #e8f04c00 0%,
+    #a70b0b84 29%,
+    #0a31f79f 67%,
+    #08e7f390 100%
   );
   background-size: auto auto;
   background-clip: border-box;
