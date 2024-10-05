@@ -251,7 +251,6 @@ h1{
   animation: fadeIn  10s;
 }
  .achieve {
-  font-weight:;
   padding-top:10px;
   font-family: fr;
   font-weight: 900;
@@ -313,8 +312,26 @@ h1{
   border-radius: 10px;
 }
 
-
 @font-face{
   font-family: fr;
   src:url(re.ttf);
+}
+.end {
+  display: flex;
+  gap: 30px; 
+}
+
+.leo {
+  height: 300px;
+  border-radius: 100px;
+}
+
+.muthu {
+  height: 300px; 
+  border-radius: 100px; 
+}
+.it{
+  font-size: x-large;
+  text-align: left;
+  font-family: f;
 }
