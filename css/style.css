@@ -130,13 +130,13 @@
 .paa {}
 
 .pi {
-  font-family: trirong;
+  font-family:fr;
   font-weight: 900;
   text-align: left;
   font-size: medium;
   animation: fadeIn 10s;
   color: rgb(1, 1, 106);
-  font-style: oblique;
+ 
 }
 
 .imgi {
@@ -153,6 +153,7 @@
   align-items:center;
   justify-content:center;
   text-align:center;
+
 }
 h1{
   text-align:center;
@@ -160,6 +161,8 @@ h1{
   color: #181695; 
   font-size: 6rem;
   font-family: myfont;
+  animation: fadeIn  10s;
+
 }
 
 .roller{
@@ -171,7 +174,6 @@ h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  
   color: #000000;
 }
 
@@ -246,11 +248,12 @@ h1{
   display:block;
   border-radius: 10px;
   padding-bottom: 10px;
+  animation: fadeIn  10s;
 }
  .achieve {
-  font-weight:bold;
+  font-weight:;
   padding-top:10px;
-  font-family: trirong;
+  font-family: fr;
   font-weight: 900;
   text-align: left;
   font-size: large;
@@ -311,3 +314,7 @@ h1{
 }
 
 
+@font-face{
+  font-family: fr;
+  src:url(re.ttf)
+}
