@@ -29,7 +29,7 @@
 }
 
 .p {
-  font-family: Copperplate, Papyrus, fantasy;
+  font-family:fi;
   font-size: xx-large;
   animation: fadeIn 10s;
 }
@@ -44,25 +44,32 @@
   }
 }
 
-.nav {
-  background-color: rgb(0, 0, 0);
-  overflow: auto();
-  justify-content: space-between;
+
+.nope {
+  display: flex;
+  justify-content: flex-start; 
 }
 
-.nav a {
-  color: rgba(255, 255, 255, 0.997);
-  float: right;
-  background-color: rgb(0, 0, 0);
-  text-align: center;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-  padding-top: 10px;
-  border-radius: 20px;
-  padding-block: 10px;
-
+.nope a {
+  padding: 10px 20px; 
+  text-decoration: none; 
+  color:white; 
+  border-radius: 20px; 
+  margin: 0 5px; 
+  background-color: #0d024f; 
+  font-family: trirong;
 }
+
+.nope a:hover {
+  background-color:rgb(255, 255, 255);
+}
+
+.nn {
+  display: flex;
+  margin-right: auto;
+}
+
+
 
 .nav a:hover {
   background-color: rgb(255, 255, 255);
@@ -70,11 +77,12 @@
 }
  
 .pa {
-  font-variant: small-caps;
+  font-family:f;
   box-sizing: 100px;
-  background-color: rgb(255, 255, 255);
+ box-shadow: 20px;
+  background-image: linear-gradient(to bottom, #f0f0f0, white);
   color: rgb(0, 0, 0);
-  border-radius: 10px;
+  border-radius: 1px;
   font-size: large;
   padding-top: 20px;
 
@@ -91,7 +99,7 @@
   background-color: #002fbc;
   color: rgb(255, 246, 246);
   padding: 15px 32px;
-  border-radius: 40px;
+  border-radius: 10px;
   text-align: center;
   display: inline-block;
   margin: 0px 0px;
@@ -231,12 +239,12 @@ h1{
 }
 .hi{
  color: #000000;
- font-family: fo;
+ font-family: fi;
   font-size: xx-large;
-  background-color: #fffcfc;
-  display: inline-block;
-  text-decoration: double;
-  border-radius: 1px;
+   justify-content: center;
+   align-items: center;
+  display:block;
+  border-radius: 10px;
   padding-bottom: 10px;
 }
  .achieve {
@@ -284,3 +292,22 @@ h1{
   font-family:fo ;
   src: url(v.ttf.otf);
 }
+@font-face{
+  font-family:f;
+  src: url(j.ttf);
+}
+@font-face{
+  font-family:fi;
+  src: url(y.ttf);
+}
+.imee {
+  width: 300px; /* set your desired width */
+  overflow: hidden; /* hides overflow */
+}
+.imei{
+  width: 1520px;
+  height: 200px; 
+  border-radius: 10px;
+}
+
+
