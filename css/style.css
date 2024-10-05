@@ -68,11 +68,7 @@
   background-color: rgb(255, 255, 255);
   color: black;
 }
-
-.nav a:last-child {
-  margin-right: 1130px;
-}
-
+ 
 .pa {
   font-variant: small-caps;
   box-sizing: 100px;
@@ -274,9 +270,13 @@ h1{
   padding-top: 30px;
   padding-left: 45px;
 
+<<<<<<< HEAD
 
 }
 @font-face {
   font-family: font;
   src: url(KGHAPPY.ttf);
 }
+=======
+}
+>>>>>>> dceab0c9d9738ace7ce1d6742718199e50fc03b8
