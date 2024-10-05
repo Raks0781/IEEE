@@ -230,9 +230,15 @@ h1{
   src: url(aveng.ttf.ttf);
 }
 .hi{
-  background-color: #051885;
- color: #ffffff;
- font-family: }
+ color: #000000;
+ font-family: fo;
+  font-size: xx-large;
+  background-color: #fffcfc;
+  display: inline-block;
+  text-decoration: double;
+  border-radius: 1px;
+  padding-bottom: 10px;
+}
  .achieve {
   font-weight:bold;
   padding-top:10px;
@@ -269,13 +275,17 @@ h1{
   margin: 0 0 0 14px;
   padding-top: 30px;
   padding-left: 45px;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8ce599c4a11680eb3a0a5faea734df5d66160ad3
 }
 @font-face {
   font-family: font;
   src: url(KGHAPPY.ttf);
 }
+<<<<<<< HEAD
 .container {
   color: #000000;
   text-align: center;
@@ -299,4 +309,9 @@ h1{
 .hj {
   font-size: 24px;
   
+=======
+@font-face {
+  font-family:fo ;
+  src: url(wes.ttf.ttf);
+>>>>>>> 8ce599c4a11680eb3a0a5faea734df5d66160ad3
 }
