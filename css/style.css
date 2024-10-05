@@ -181,7 +181,7 @@ h1{
 .roller #rolltext {
   position: absolute;
   top: 0;
-  animation: slide 5s infinite;  
+  animation: slide 7s infinite;  
   font-size:large;
   font-family:font;
   font-size: xx-large;
