@@ -304,8 +304,8 @@ h1{
   src: url(y.ttf);
 }
 .imee {
-  width: 300px; /* set your desired width */
-  overflow: hidden; /* hides overflow */
+  width: 300px; 
+  overflow: hidden; 
 }
 .imei{
   width: 1520px;
@@ -316,5 +316,5 @@ h1{
 
 @font-face{
   font-family: fr;
-  src:url(re.ttf)
+  src:url(re.ttf);
 }
