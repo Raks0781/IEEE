@@ -17,9 +17,9 @@
 }
 
 .h {
-  font-family: trirong;
+  font-family:'Times New Roman', Times, serif;
   color: rgb(252, 252, 252);
-  background-color: rgb(14, 14, 114);
+  background-color: rgb(31, 14, 114);
   box-sizing: border-box;
   border-radius: 100px;
   border-color: antiquewhite;
@@ -48,6 +48,7 @@
 .nope {
   display: flex;
   justify-content: flex-start; 
+  padding: 20px;
 }
 
 .nope a {
@@ -67,6 +68,7 @@
 .nn {
   display: flex;
   margin-right: auto;
+  float: right;
 }
 
 
